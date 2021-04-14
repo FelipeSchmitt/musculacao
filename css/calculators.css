@@ -27,6 +27,7 @@
     }
     #grid #box{
         width: 60%;
+        margin-bottom: 30px;
     }
     #grid #box img{
         width: 70%;
