@@ -10,7 +10,7 @@ function menu_show(){
     if (window.matchMedia("(max-width:60em)").matches) {
         if (topics.marginTop=="-400px"){
             topics.marginTop="0px"
-            content.marginTop="250px"
+            content.marginTop="350px"
         }else{
             topics.marginTop="-400px"
             content.marginTop="0px"
