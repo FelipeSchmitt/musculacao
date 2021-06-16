@@ -10,15 +10,59 @@ h1{
     border-radius: 3px;
     position: absolute;
 }
+
 #content img{
     width: 100%;
 }
 
+
+#summary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#summary_title{
+    color: orangered;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#summary #blocos{
+    background-color: whitesmoke;
+    margin: 30px;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    line-height: 400px;
+    font-size: 40px;
+    font-weight: 800;
+    color: red;
+    background-image: url('../image/triceps.jpg');
+    background-size: 100%;
+    border-style: groove;
+}
+
+#summary img{
+    margin-left: 100%;
+}
+
+
 @media screen and (max-width: 60em){
 
-    #content img{
-        width: 200%;
+
+    #content h1{
+        font-size: 24px;
     }
-    
+
+    #summary{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #summary img{
+        margin-left: 2.5%;
+    }
 
 }
