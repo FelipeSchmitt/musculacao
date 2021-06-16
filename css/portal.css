@@ -115,5 +115,8 @@ body{
         width: 90%;
     }
     
+    #campos_acesso input{
+        width: 95%;
+    }
 
 }
